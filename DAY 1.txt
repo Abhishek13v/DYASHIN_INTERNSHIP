@@ -1,0 +1,373 @@
+					DAY 1
+
+1) What is Python?
+
+  -High level language
+  -Open source
+  -Platform independent
+  -Follows oops concept
+  
+
+2) History of Python?
+ -Started in dec 1989 by guido van Rossum in Netherlands.
+ -In 1994 python 1.0 was released like lamda,map,filter,renduce.
+ -Python 2.0 added new feature like list comprientions,garbage collection system.
+ -On dec 3 2008 python3.0 was released and its also called as py3k.
+ -Python is influnced by abc language and modula 3.
+
+3) Python Architecture
+
+                           Interpreter
+
+
+ -  source code----- compiler-----byte code-----virtual machine------running code
+                    
+                                     
+                                Library modules
+
+
+ note: .py is extention for python (source code)
+
+ -byte code converted into low level code(binary language).
+ -byte code extention is .class (to save).
+
+ 
+
+					DAY 2
+
+PyCharm:-
+
+steps to be followed:-
+1. open PyCharm
+2. press new project
+3. right click the path 
+4. click new
+5. after press directories
+6. give the name for that.[it will be displayed as a folder]
+7. right click the named folder
+8. click python file [open]
+9. write the code
+10. for execution press run button or(ctrl+f5)
+
+programs:-
+1] create a program to display student name, student rollno, student class, student marks in one single line of 20 students of data should be displayed. [1.py]
+
+comments:-
+
+* comments are used to write descriptions about application logics. to understand the logic easily
+* the main objective comments the code maintenance will become easy
+* the comments are non executable code
+* python will ignore comments in run time
+
+Types of comments:-
+ 
+1. # single line termination
+
+2. ''' terminate
+
+3. """ double line termination
+
+
+					DAY-3
+
+
+Variables:-
+variables are the containers used to store data values in a program. Each variable is given a name to reference to stored value.
+
+characters:-
+* variable should start with alphabets small letters.
+* variable doesn't contains any names.
+* spaces are not allowed only _ and $ are allow to creating a variable
+
+eg: age= 25
+    name= "Bhanu"
+    print(age, name)	
+
+programs:-
+1] create a program to have a variables of student name, student roll no, student marks, student class of 15 students [2.py]
+
+data types:
+data types define the kind of  data a variable can hold, such as *integers, *floats, *string, *boolians.
+python is statically object oriented programing languages [structured programing language]
+
+x= 10		#int
+pi= 3.14	#float
+is_valid= true	#boolian
+message= "hi"	#string
+
+note: if we need to check the data type of the given variable use "type"
+
+eg: number=227
+    print(type(number))
+
+keywords:-
+keywords are reserved words in python. cannot be used as variable names, class names, function names and method names.
+
+
+import keyword
+print(keyword.kwlist)
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+
+concatenation:
+make a definition combining 2 or multiple values are variables is known as concatenation [+]
+
+eg:
+first= Bhanu
+last= Rashwith
+full_name= first + " " + last
+print("full_name")
+
+type convertions:
+type convertion is the process of converting a variable from one data type to another
+
+eg:
+num_str= "100"
+num_int= int(num_str)
+print(num_str)
+
+										day-4
+
+operators:
+operators are symbols or keywords that are used to perform operations on variables and values. they are essential building blocks for performing arithamatic calculations, comparision, locical decision, and more.
+
+arithamatic operators
+comparision operators
+assignment operators
+logical operators
+
+eg:
+
+
+programs:-
+1. create a program for asking user to enter the values to perform addition subtraction multiplication division and modules
+for every operation user need to be asked the values do it
+2. print the average of the 3 students of three respective marks, each students contains 3 subjects 
+
+
+										day-5
+
+program:-
+1] create a program to find the average of a students and percentage of a student i need to be total five students. at the 5 students out of 5 students who is the class topper and who is the last person.
+2] if program
+3] if else
+4] elif
+5] nested if
+6] switch statement
+
+control flow statements:
+these are of three types
+* conditional statements
+*looping statements
+*jumping statements
+
+
+conditional statements:
+	these are of 5 types if, if else, elif, nested if, switch.
+
+if statement:
+	the if statement checks a condition and runs a blog of code with the condition is true
+
+if else:
+	it is used to execute one block with the condition is true and other block if the condition is false
+
+elif:
+	it is used when you want to check the multiple condition
+
+nested if:
+	an if statement inside another inside if statement.
+
+looping statements:
+while
+for
+
+while:
+	a while loop repeatedly executes the block of code. as long as the condition is true. 
+
+for:
+	it is used to iterate the sequence.
+in it is a keyword it says that to go to each item in.
+
+range function:
+	this function will help us to print from the provided starting value to the provided ending value.  
+
+
+										day-6
+
+strings in python:
+* A String is a class which is by default available once you install python in your laptop or pc.
+* a string contains inbuilt metthods where we can apply on string variable or value.
+
+def:- a string in python is a sequence of characters when closed in single quotes, double quotes, triple quotes.
+
+string methods:
+1) upper(): converting the variables into upper case.
+2) lower(): converting the variables into lower case.
+3) capitalize(): converts 1st character into the upper case. remaining lower case.
+4) .title(): this means that first character of each word in the string is capitalized.
+5) .strip(): removing the space for the given variable.
+6) .lstrip(): left  side space will removed.  
+7) .rstrip(): right  side space will removed.
+8) replace(): converting the words old to new.
+9) split():  it is used to divide the string into a list of substring.
+
+										day-7
+
+program:
+1] in a pub a bouncer is there he have a bad habbit of reading a ticket passes in reverse order.
+
+function:
+a simple peace of code when ever we call it will perform something is known as functions
+def: a set of statements which will perform a tasks and it is based on two parts
+
+function decleration(CREATION)
+calling the function. it is defining the "def" keyword
+	
+	def	function name	(parameter if required)
+		#statements
+		#return if required
+
+eg: def print_hello():
+	print("hello")
+    print_hello()
+
+   def my_name(name):
+	print("hello",name)
+
+   my_name("dashin")
+
+parameterised():-
+a function with parameter with return type
+global variables:
+
+the global variables are the variables are the variables. created outside of the function. it can be utilized in any function.
+a variable which is created inside a function is known as local variables.
+
+local variables:
+these local variables cannot be utilized outside of a function
+ 
+
+collections:
+in python collection refers to build in data types. that are use to store and organize the data. they are powerful, flexible and widely used.
+
+types of collection
+1. list
+2. tuple
+3. set
+4. dictionary
+
+list:
+a list is a collection which is order and changeable. in python lists are in square brackets"[]"
+* list is mutable
+*how to create the list
+	mylist=[]
+
+*how to store the elements into list
+	mylist=["apple","banana","cherry"]
+*how to print the list
+	print(my_list)
+        return
+
+create a program to store the elements in an list the elements are apple, banana, cherry, kiwi, watermelon, mangos.
+
+mylist=["apple","banana","cherry","kiwi","watermelon","mango"]
+print(mylist[1:4])
+
+
+tuple:
+a tuple is a collection which is ordered and unchangeable. in python tuples are return with round brackets "()".
+*tuple is immutable.
+* if it is immutable below these things are not possible.
+1. we cant modify the existing value.
+2. we cannot append the new value.
+3. we cant insert new elements. 
+4. we cant remove the new value.
+
+
+										day-8
+sets:
+a set is a collection which is unordered and unindexed. in python sets are using curly braces
+it is a mutable
+
+eg: "+"add, "-"sub, "&"and, "|"union.
+
+* +: it is not used in a set
+* -: it won't allow the duplicate values.
+* &: it print the duplicate value
+* |: it combining two sets
+
+dictonary:
+a dictory is a collection which is unordered and change the index. in python dictonary are written with curly braces. and they have keys and values.
+note: is should not repeat one more time
+
+program:
+create a program in an dictionary is are brand model and year.  and values are brand is tata and value for model is nexon. and year is 2025.
+
+oops:
+class
+object
+constructor
+inheritance
+polymorphism
+
+class:
+a class is a collection of variables and methods.
+class is blueprint.
+it is a logical entity.
+does not occupy the space in memory.
+
+object:
+an object is instance of a class. s
+it is a physical entity. occupy the space in memory.
+for one class we can create multiple objects are independent.
+
+syntax: 
+	class first_program:
+		statements
+		----------
+--------------------------
+
+methods: methods are used to display class.
+
+
+										day-9
+
+
+constructors:
+constructors are the special members of the class. these are similar to the methods. while creating a object only by default. the constructor and get invoked 
+
+
+program: create a program to print the employee details (emolyee_name, employee_id, employee_designation, employee_salary)
+
+
+inheritance:
+one class sharing properties to another class is known as inheritance
+* a class which sharing the properties is known as parent class.
+* a class which is utilizing from the parent class is known as child class.
+
+typs of iheritence:
+singlelevel inheritance
+multilevel inheritance
+multiple inheritance
+hirarechical inheritance
+
+polymorphism:
+a method which gets binded during compilation time is known as polymarphism
+
+two types:
+compile time:
+	to achive compile time polimarphism to need method overloading
+
+2. runtime polymorphism:
+	it is achived with the help of method over riding
+
+class a:
+	def m1(self):
+		print("iam m1")
+	def m2(self, name):
+		print("name:",name)
+
+obj= a()
+obj.m1()
+obj.m2("data")
